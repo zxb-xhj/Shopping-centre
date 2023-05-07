@@ -1,0 +1,21 @@
+mybatis-plus:
+  mapper-locations: classpath*:mepper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+spring:
+  datasource:
+    username: zhangxinbao
+    password: zhangxinbao123@.
+    url: jdbc:mysql://47.120.6.55:3306/gulimall_ums?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimall-member
+
+server:
+  port: 8000
