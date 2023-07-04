@@ -17,15 +17,10 @@
         <module>xhj-order</module>
         <module>xhj-product</module>
         <module>xhj-ware</module>
-        <module>renren-generator</module>
         <module>xhj-gateway</module>
         <module>xhj-third-party</module>
         <module>xhj-search</module>
-        <module>renren-fast</module>
         <module>xhj-auth-server</module>
-        <module>xhj-test-sso-client</module>
-        <module>xhj-test-sso-client2</module>
-        <module>xhj-test-sso-server</module>
         <module>xhj-cart</module>
         <module>xhj-seckill</module>
     </modules>
