@@ -1,6 +1,6 @@
 package com.xhj.cart.cart.controller;
 
-import com..common.constant.AuthServerConstant;
+import com.common.constant.AuthServerConstant;
 import com.xhj.cart.cart.service.CartService;
 import com.xhj.cart.cart.vo.CartItemVo;
 import com.xhj.cart.cart.vo.CartVo;

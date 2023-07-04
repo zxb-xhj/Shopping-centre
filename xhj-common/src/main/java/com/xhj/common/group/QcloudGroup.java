@@ -6,7 +6,7 @@
  * 版权所有，侵权必究！
  */
 
-package com..common.group;
+package com.common.group;
 
 /**
  * 腾讯云

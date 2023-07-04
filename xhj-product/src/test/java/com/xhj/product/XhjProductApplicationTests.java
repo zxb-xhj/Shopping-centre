@@ -4,7 +4,7 @@ package com.xhj.product;
 import com.xhj.product.entity.BrandEntity;
 import com.xhj.product.entity.CategoryBrandRelationEntity;
 import com.xhj.product.entity.SkuInfoEntity;
-import com..xhj.product.service.*;
+.xhj.product.service.*;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
@@ -25,7 +25,7 @@ import java.util.UUID;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j
-class xhjProductApplicationTests {
+class XhjProductApplicationTests {
 
     @Autowired
     BrandService brandService;

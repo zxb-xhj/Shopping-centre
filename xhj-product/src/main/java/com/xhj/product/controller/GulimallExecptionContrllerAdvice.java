@@ -1,6 +1,6 @@
 package com.xhj.product.controller;
 
-import com..common.utils.R;
+import com.common.utils.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -16,7 +16,7 @@ import java.util.Map;
  * @Date: 2023/03/14/14:23
  * @Description:
  */
-@RestControllerAdvice(value = "com..xhj.product.controller")
+@RestControllerAdvice(value = "com.xhj.product.controller")
 @Slf4j
 public class xhjExecptionContrllerAdvice {
 

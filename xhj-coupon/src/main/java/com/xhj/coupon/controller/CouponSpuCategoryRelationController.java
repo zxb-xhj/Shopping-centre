@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

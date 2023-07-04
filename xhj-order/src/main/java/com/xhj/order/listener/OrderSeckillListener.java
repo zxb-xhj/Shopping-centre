@@ -1,6 +1,6 @@
 package com.xhj.order.listener;
 
-import com..common.to.mq.SeckillOrderTo;
+import com.common.to.mq.SeckillOrderTo;
 import com.xhj.order.service.OrderService;
 import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
@@ -28,7 +28,7 @@ public class OrderSeckillListener {
     @RabbitHandler
     public void listener(SeckillOrderTo orderTo, Channel channel, Message message) throws IOException {
 
-        log.info("准备创建秒杀单的详细信息...");
+        log.info("准备创建秒杀单的详细信息..");
 
         try {
             orderService.createSeckillOrder(orderTo);

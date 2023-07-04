@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @Description:
  */
 @Configuration
-@MapperScan("com..xhj.product.dao")
+@MapperScan("com.xhj.product.dao")
 @EnableTransactionManagement //开启事务
 public class MybatisConfig {
 

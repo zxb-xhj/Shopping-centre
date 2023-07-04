@@ -1,6 +1,6 @@
 package com.xhj.search.vo;
 
-import com..common.to.es.SkuEsModel;
+import com.common.to.es.SkuEsModel;
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;

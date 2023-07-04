@@ -1,7 +1,7 @@
 package com.xhj.product.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.product.entity.UndoLogEntity;
 
 import java.util.Map;

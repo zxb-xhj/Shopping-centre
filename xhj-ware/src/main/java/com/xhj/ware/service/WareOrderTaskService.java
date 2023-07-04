@@ -1,7 +1,7 @@
 package com.xhj.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.ware.entity.WareOrderTaskEntity;
 
 import java.util.Map;

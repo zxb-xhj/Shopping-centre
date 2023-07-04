@@ -1,7 +1,7 @@
 package com.xhj.coupon.service.impl;
 
-import com..common.to.MemberPrice;
-import com..common.to.SkuReductionTo;
+import com.common.to.MemberPrice;
+import com.common.to.SkuReductionTo;
 import com.xhj.coupon.entity.MemberPriceEntity;
 import com.xhj.coupon.entity.SkuLadderEntity;
 import com.xhj.coupon.service.MemberPriceService;
@@ -21,8 +21,8 @@ import java.util.stream.Collectors;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import org.springframework.transaction.annotation.Transactional;
 

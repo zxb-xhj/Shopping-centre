@@ -23,7 +23,7 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j
-class xhjOrderApplicationTests {
+class XhjOrderApplicationTests {
 
     @Autowired
     OrderService omsOrderService;

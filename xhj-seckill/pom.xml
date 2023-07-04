@@ -10,7 +10,7 @@
     </parent>
     <version>0.0.1-SNAPSHOT</version>
 
-    <groupId>com..xhj</groupId>
+    <groupId>com.xhj</groupId>
     <artifactId>xhj-seckill</artifactId>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -45,7 +45,7 @@
             <artifactId>jedis</artifactId>
         </dependency>
         <dependency>
-            <groupId>com..xhj</groupId>
+            <groupId>com.xhj</groupId>
             <artifactId>xhj-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
 

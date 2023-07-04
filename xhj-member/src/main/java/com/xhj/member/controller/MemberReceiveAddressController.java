@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 import com.xhj.member.entity.MemberReceiveAddressEntity;
 import com.xhj.member.service.MemberReceiveAddressService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

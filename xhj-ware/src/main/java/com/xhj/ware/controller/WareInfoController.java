@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 import com.xhj.ware.entity.WareInfoEntity;
 import com.xhj.ware.service.WareInfoService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

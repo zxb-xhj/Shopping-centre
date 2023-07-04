@@ -1,4 +1,4 @@
-package com..common.xss;
+package com.common.xss;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
@@ -27,7 +27,7 @@ import java.util.regex.Pattern;
  * constants are in all caps.
  *
  * Sample use:
- * String input = ...
+ * String input = ..
  * String clean = new HTMLFilter().filter( input );
  *
  * The class is not thread safe. Create a new instance if in doubt.
@@ -68,7 +68,7 @@ public final class HTMLFilter {
     private static final Pattern P_RIGHT_ARROW = Pattern.compile(">");
     private static final Pattern P_BOTH_ARROWS = Pattern.compile("<>");
 
-    // @xxx could grow large... maybe use sesat's ReferenceMap
+    // @xxx could grow large.. maybe use sesat's ReferenceMap
     private static final ConcurrentMap<String,Pattern> P_REMOVE_PAIR_BLANKS = new ConcurrentHashMap<String, Pattern>();
     private static final ConcurrentMap<String,Pattern> P_REMOVE_SELF_BLANKS = new ConcurrentHashMap<String, Pattern>();
 

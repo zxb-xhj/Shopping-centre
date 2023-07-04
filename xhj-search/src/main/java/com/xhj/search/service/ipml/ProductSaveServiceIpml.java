@@ -1,7 +1,7 @@
 package com.xhj.search.service.ipml;
 
 import com.alibaba.fastjson.JSON;
-import com..common.to.es.SkuEsModel;
+import com.common.to.es.SkuEsModel;
 import com.xhj.search.config.XhjElasticSearchConfig;
 import com.xhj.search.constant.EsConstant;
 import com.xhj.search.feign.ProductFeignService;

@@ -5,18 +5,18 @@ import java.util.List;
 import java.util.Map;
 
 
-import com..common.exception.NoStockException;
-import com..common.to.SkuHasStockTo;
+import com.common.exception.NoStockException;
+import com.common.to.SkuHasStockTo;
 import com.xhj.ware.vo.WareSkuLockVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import com.xhj.ware.entity.WareSkuEntity;
 import com.xhj.ware.service.WareSkuService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
-import static com..common.exception.BizCodeEnum.NO_STOCK_EXCEPTION;
+import static com.common.exception.BizCodeEnum.NO_STOCK_EXCEPTION;
 
 
 /**

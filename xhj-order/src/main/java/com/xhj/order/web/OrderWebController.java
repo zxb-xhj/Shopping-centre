@@ -1,6 +1,6 @@
 package com.xhj.order.web;
 
-import com..common.exception.NoStockException;
+import com.common.exception.NoStockException;
 import com.xhj.order.service.OrderService;
 import com.xhj.order.vo.OrderConfirmVo;
 import com.xhj.order.vo.OrderSubmitVo;

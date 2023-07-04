@@ -4,14 +4,14 @@ import java.util.Arrays;
 import java.util.Map;
 
 
-import com..common.to.SkuReductionTo;
+import com.common.to.SkuReductionTo;
 import com.xhj.coupon.entity.SkuFullReductionEntity;
 import com.xhj.coupon.service.SkuFullReductionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

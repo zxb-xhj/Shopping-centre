@@ -1,4 +1,4 @@
-package com..xhj.auth.config;
+package com.xhj.auth.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

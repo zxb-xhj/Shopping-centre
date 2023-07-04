@@ -1,8 +1,8 @@
 package com.xhj.product.entity;
 
-import com..common.group.AddGroup;
-import com..common.group.ListValue;
-import com..common.group.UpdateGroup;
+import com.common.group.AddGroup;
+import com.common.group.ListValue;
+import com.common.group.UpdateGroup;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 

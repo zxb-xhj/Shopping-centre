@@ -1,8 +1,8 @@
 package com.xhj.cart.cart.interceptor;
 
-import com..common.constant.AuthServerConstant;
-import com..common.constant.CartConstant;
-import com..common.vo.MemberResponseVo;
+import com.common.constant.AuthServerConstant;
+import com.common.constant.CartConstant;
+import com.common.vo.MemberResponseVo;
 import com.xhj.cart.cart.vo.UserInfoTo;
 import org.springframework.util.StringUtils;
 import org.springframework.web.servlet.HandlerInterceptor;

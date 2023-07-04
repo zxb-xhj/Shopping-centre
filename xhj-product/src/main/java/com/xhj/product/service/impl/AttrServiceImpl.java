@@ -1,10 +1,10 @@
 package com.xhj.product.service.impl;
 
-import com..common.constant.ProductConstant;
+import com.common.constant.ProductConstant;
 import com.xhj.product.dao.AttrAttrgroupRelationDao;
 import com.xhj.product.dao.AttrGroupDao;
 import com.xhj.product.dao.CategoryDao;
-import com..xhj.product.entity.*;
+import com.xhj.product.entity.*;
 import com.xhj.product.service.CategoryService;
 import com.xhj.product.service.SpuInfoService;
 import com.xhj.product.vo.AttrRespVo;
@@ -27,8 +27,8 @@ import java.util.stream.Stream;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import com.xhj.product.dao.AttrDao;
 import org.springframework.transaction.annotation.Transactional;

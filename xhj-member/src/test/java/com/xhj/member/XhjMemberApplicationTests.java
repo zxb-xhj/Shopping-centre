@@ -1,8 +1,8 @@
 package com.xhj.member;
 
 import com.alibaba.fastjson.TypeReference;
-import com..common.utils.R;
-import com..common.vo.MemberResponseVo;
+.common.utils.R;
+.common.vo.MemberResponseVo;
 import com.xhj.member.controller.MemberController;
 import com.xhj.member.entity.MemberLevelEntity;
 import com.xhj.member.service.MemberLevelService;
@@ -18,7 +18,7 @@ import java.util.List;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-class xhjMemberApplicationTests {
+class XhjMemberApplicationTests {
 
     @Autowired
     MemberLevelService memberLevelService;

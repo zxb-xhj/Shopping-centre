@@ -1,7 +1,7 @@
 package com.xhj.search.feign;
 
-import com..common.to.es.SkuEsModel;
-import com..common.utils.R;
+import com.common.to.es.SkuEsModel;
+import com.common.utils.R;
 import com.xhj.search.feign.fallback.ProductServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

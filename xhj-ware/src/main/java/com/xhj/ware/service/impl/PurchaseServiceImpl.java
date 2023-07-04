@@ -1,6 +1,6 @@
 package com.xhj.ware.service.impl;
 
-import com..common.constant.WareConstant;
+import com.common.constant.WareConstant;
 import com.xhj.ware.entity.PurchaseDetailEntity;
 import com.xhj.ware.service.PurchaseDetailService;
 import com.xhj.ware.service.WareSkuService;
@@ -16,8 +16,8 @@ import java.util.stream.Collectors;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import com.xhj.ware.dao.PurchaseDao;
 import com.xhj.ware.entity.PurchaseEntity;

@@ -5,14 +5,14 @@ import java.util.List;
 import java.util.Map;
 
 
-import com..common.to.es.SkuEsModel;
+import com.common.to.es.SkuEsModel;
 import com.xhj.product.entity.SkuSaleAttrValueEntity;
 import com.xhj.product.service.SkuSaleAttrValueService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

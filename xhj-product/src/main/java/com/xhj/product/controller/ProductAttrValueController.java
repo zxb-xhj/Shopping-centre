@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 
-import com..common.to.es.SkuEsModel;
+import com.common.to.es.SkuEsModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.xhj.product.entity.ProductAttrValueEntity;
 import com.xhj.product.service.ProductAttrValueService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

@@ -6,9 +6,9 @@
  * 版权所有，侵权必究！
  */
 
-package com..common.utils;
+package com.common.utils;
 
-import com..common.xss.SQLFilter;
+import com.common.xss.SQLFilter;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

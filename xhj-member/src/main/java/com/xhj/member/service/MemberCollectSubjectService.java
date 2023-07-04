@@ -1,7 +1,7 @@
 package com.xhj.member.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.member.entity.MemberCollectSubjectEntity;
 
 import java.util.Map;

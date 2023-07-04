@@ -1,8 +1,8 @@
 package com.xhj.coupon.service;
 
-import com..common.to.SkuReductionTo;
+import com.common.to.SkuReductionTo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.coupon.entity.SkuFullReductionEntity;
 
 import java.util.Map;

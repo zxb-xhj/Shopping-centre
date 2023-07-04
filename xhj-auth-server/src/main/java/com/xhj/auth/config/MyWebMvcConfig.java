@@ -1,4 +1,4 @@
-package com..xhj.auth.config;
+package com.xhj.auth.config;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

@@ -20,11 +20,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 */
 @EnableRabbit
 @EnableRedisHttpSession
-@MapperScan("com..xhj.product.dao")
+@MapperScan("com.xhj.product.dao")
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableTransactionManagement
-@EnableFeignClients("com..xhj.product.feign")
+@EnableFeignClients("com.xhj.product.feign")
 public class XhjProductApplication {
 
     public static void main(String[] args) {

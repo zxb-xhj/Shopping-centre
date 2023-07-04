@@ -67,7 +67,7 @@ public class HelloController {
         RCountDownLatch dool = redissonClient.getCountDownLatch("dool");
         dool.trySetCount(5);
         dool.wait(); // 等待闭锁都完成
-        return "放假了，锁门...";
+        return "放假了，锁门..";
     }
 
     @GetMapping("/gogogo/{id}")

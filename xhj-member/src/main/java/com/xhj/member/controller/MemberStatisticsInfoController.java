@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.xhj.member.entity.MemberStatisticsInfoEntity;
 import com.xhj.member.service.MemberStatisticsInfoService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

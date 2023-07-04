@@ -1,7 +1,7 @@
 package com.xhj.ware.listener;
 
-import com..common.to.mq.OrderTo;
-import com..common.to.mq.StockLockedTo;
+import com.common.to.mq.OrderTo;
+import com.common.to.mq.StockLockedTo;
 import com.xhj.ware.service.WareSkuService;
 import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;

@@ -1,7 +1,7 @@
 package com.xhj.order.interceptor;
 
-import com..common.constant.AuthServerConstant;
-import com..common.vo.MemberResponseVo;
+import com.common.constant.AuthServerConstant;
+import com.common.vo.MemberResponseVo;
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.web.servlet.HandlerInterceptor;

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Map;
 
 
-import com..common.exception.BizCodeEnum;
+import com.common.exception.BizCodeEnum;
 import com.xhj.member.exception.PhoneException;
 import com.xhj.member.exception.UsernameException;
 import com.xhj.member.feign.CouponfeignService;
@@ -16,8 +16,8 @@ import com.xhj.member.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

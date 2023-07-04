@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 import com.xhj.product.entity.AttrAttrgroupRelationEntity;
 import com.xhj.product.service.AttrAttrgroupRelationService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

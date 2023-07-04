@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @Slf4j
-public class xhjThirdpartyApplicationTests {
+public class XhjThirdpartyApplicationTests {
 
     @Autowired
     SmsComponent smsComponent;

@@ -8,7 +8,7 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com..xhj</groupId>
+    <groupId>com.xhj</groupId>
     <artifactId>xhj-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>xhj-gateway</name>
@@ -34,7 +34,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com..xhj</groupId>
+            <groupId>com.xhj</groupId>
             <artifactId>xhj-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <exclusions>

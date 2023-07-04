@@ -2,7 +2,7 @@ package com.xhj.product.service;
 
 import com.xhj.product.vo.Category2Vo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.product.entity.CategoryEntity;
 
 import java.util.List;

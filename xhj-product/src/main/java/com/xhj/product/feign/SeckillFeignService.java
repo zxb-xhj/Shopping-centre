@@ -1,6 +1,6 @@
 package com.xhj.product.feign;
 
-import com..common.utils.R;
+import com.common.utils.R;
 import com.xhj.product.feign.fallback.SeckillFeignServiceFallBack;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

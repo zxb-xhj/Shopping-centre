@@ -1,7 +1,7 @@
 package com.xhj.ware.service.impl;
 
 import com.alibaba.fastjson.TypeReference;
-import com..common.utils.R;
+import com.common.utils.R;
 import com.xhj.ware.feign.MemberFeignService;
 import com.xhj.ware.vo.FareVo;
 import com.xhj.ware.vo.MemberAddressVo;
@@ -13,8 +13,8 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import com.xhj.ware.dao.WareInfoDao;
 import com.xhj.ware.entity.WareInfoEntity;

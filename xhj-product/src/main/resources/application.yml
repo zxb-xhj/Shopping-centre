@@ -30,7 +30,7 @@ server:
   port: 10011
 logging:
   level:
-    com..xhj: info
+    com.xhj: info
 
 feign:
   httpclient:

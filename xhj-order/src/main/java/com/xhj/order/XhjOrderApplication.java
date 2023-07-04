@@ -25,8 +25,8 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableRabbit
 @EnableDiscoveryClient
 @EnableTransactionManagement
-@EnableFeignClients("com..xhj.order.feign")
-@MapperScan("com..xhj.order.dao")
+@EnableFeignClients("com.xhj.order.feign")
+@MapperScan("com.xhj.order.dao")
 public class XhjOrderApplication {
 
     public static void main(String[] args) {

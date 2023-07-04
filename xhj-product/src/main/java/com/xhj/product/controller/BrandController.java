@@ -4,8 +4,8 @@ import java.util.Arrays;
 import java.util.Map;
 
 
-import com..common.group.AddGroup;
-import com..common.group.UpdateGroup;
+import com.common.group.AddGroup;
+import com.common.group.UpdateGroup;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.xhj.product.entity.BrandEntity;
 import com.xhj.product.service.BrandService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 /**

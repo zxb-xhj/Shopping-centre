@@ -51,7 +51,7 @@ public class HelloScheduled {
 //     @Async
 //     @Scheduled(cron = "*/5 * * ? * *")
 //     public void hello() {
-//         log.info("hello...");
+//         log.info("hello..");
 //         try { TimeUnit.SECONDS.sleep(3); } catch (InterruptedException e) { e.printStackTrace(); }
 //
 //     }

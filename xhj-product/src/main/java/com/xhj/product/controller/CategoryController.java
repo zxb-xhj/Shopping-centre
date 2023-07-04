@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.xhj.product.entity.CategoryEntity;
 import com.xhj.product.service.CategoryService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

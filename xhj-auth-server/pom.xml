@@ -8,7 +8,7 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com..xhj.auth</groupId>
+    <groupId>com.xhj.auth</groupId>
     <artifactId>xhj-auth-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>xhj-auth-server</name>

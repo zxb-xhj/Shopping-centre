@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com..xhj</groupId>
+    <groupId>com.xhj</groupId>
     <artifactId>xhj-common</artifactId>
 
     <properties>

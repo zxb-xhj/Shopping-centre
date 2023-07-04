@@ -31,8 +31,8 @@ import java.util.stream.Collectors;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import com.xhj.product.dao.CategoryDao;
 import com.xhj.product.entity.CategoryEntity;
@@ -180,7 +180,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     @Cacheable(value = {"category"}, key = "'leve1Categorys'")
     @Override
     public List<CategoryEntity> getLeve1Categorys(){
-        System.out.println("getLeve1Categorys.....");
+        System.out.println("getLeve1Categorys...");
         long l = System.currentTimeMillis();
         List<CategoryEntity> listOneCategory = getListOneCategory();
         return listOneCategory;
@@ -214,7 +214,7 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         Map<String, List<Category2Vo>> dataFromDb = null;
         try {
             rLock.lock();
-            //加锁成功...执行业务
+            //加锁成功..执行业务
             dataFromDb = getStringListMapdb();
         } finally {
             rLock.unlock();

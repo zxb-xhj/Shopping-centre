@@ -2,7 +2,7 @@ package com.xhj.ware.service;
 
 import com.xhj.ware.vo.FareVo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.ware.entity.WareInfoEntity;
 
 import java.util.Map;

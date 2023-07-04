@@ -1,8 +1,8 @@
 package com.xhj.search.controller;
 
-import com..common.exception.BizCodeEnum;
-import com..common.to.es.SkuEsModel;
-import com..common.utils.R;
+import com.common.exception.BizCodeEnum;
+import com.common.to.es.SkuEsModel;
+import com.common.utils.R;
 import com.xhj.search.service.ProductSaveService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

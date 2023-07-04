@@ -1,4 +1,4 @@
-package com..xhj.xhj.cart;
+package com.xhj.xhj.cart;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

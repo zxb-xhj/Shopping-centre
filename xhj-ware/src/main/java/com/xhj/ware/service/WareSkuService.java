@@ -1,11 +1,11 @@
 package com.xhj.ware.service;
 
-import com..common.to.SkuHasStockTo;
-import com..common.to.mq.OrderTo;
-import com..common.to.mq.StockLockedTo;
+import com.common.to.SkuHasStockTo;
+import com.common.to.mq.OrderTo;
+import com.common.to.mq.StockLockedTo;
 import com.xhj.ware.vo.WareSkuLockVo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.ware.entity.WareSkuEntity;
 
 import java.util.List;

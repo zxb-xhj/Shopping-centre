@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.xhj.product.entity.UndoLogEntity;
 import com.xhj.product.service.UndoLogService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

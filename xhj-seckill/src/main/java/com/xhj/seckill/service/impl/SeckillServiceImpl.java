@@ -2,9 +2,9 @@ package com.xhj.seckill.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
-import com..common.to.mq.SeckillOrderTo;
-import com..common.utils.R;
-import com..common.vo.MemberResponseVo;
+import com.common.to.mq.SeckillOrderTo;
+import com.common.utils.R;
+import com.common.vo.MemberResponseVo;
 import com.xhj.seckill.feign.CouponFeignService;
 import com.xhj.seckill.feign.ProductFeignService;
 import com.xhj.seckill.interceptor.LoginUserIntercaptor;

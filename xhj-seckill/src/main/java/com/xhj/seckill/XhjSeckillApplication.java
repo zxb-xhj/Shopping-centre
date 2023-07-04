@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableDiscoveryClient
-@EnableFeignClients("com..xhj.seckill.feign")
+@EnableFeignClients("com.xhj.seckill.feign")
 public class XhjSeckillApplication {
 
     public static void main(String[] args) {

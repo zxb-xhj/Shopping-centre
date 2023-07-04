@@ -1,4 +1,4 @@
-package com..xhj.auth;
+package com.xhj.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

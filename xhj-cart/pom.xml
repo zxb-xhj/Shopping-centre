@@ -34,7 +34,7 @@
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <dependency>
-            <groupId>com..xhj</groupId>
+            <groupId>com.xhj</groupId>
             <artifactId>xhj-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

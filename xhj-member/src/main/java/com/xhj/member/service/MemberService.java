@@ -6,7 +6,7 @@ import com.xhj.member.vo.MemberUserLoginVo;
 import com.xhj.member.vo.MemberUserRegisterVo;
 import com.xhj.member.vo.SocialUser;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.member.entity.MemberEntity;
 
 import java.util.Map;

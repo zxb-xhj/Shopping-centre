@@ -1,10 +1,10 @@
-package com.xhj.seckill;
+package com.xhj.auth.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class xhjSeckillApplicationTests {
+class XhjAuthServerApplicationTests {
 
     @Test
     void contextLoads() {

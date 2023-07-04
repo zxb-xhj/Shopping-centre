@@ -6,11 +6,11 @@
  * 版权所有，侵权必究！
  */
 
-package com..common.utils;
+package com.common.utils;
 
-import com..common.group.AliyunGroup;
-import com..common.group.QcloudGroup;
-import com..common.group.QiniuGroup;
+import com.common.group.AliyunGroup;
+import com.common.group.QcloudGroup;
+import com.common.group.QiniuGroup;
 
 import java.util.Optional;
 import java.util.stream.Stream;

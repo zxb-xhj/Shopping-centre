@@ -1,4 +1,4 @@
-package com..common.group;
+package com.common.group;
 
 import lombok.var;
 
@@ -7,7 +7,7 @@ import javax.validation.ConstraintValidatorContext;
 import java.lang.annotation.Annotation;
 import java.util.HashSet;
 import java.util.Set;
-//com..common.valid.ListValue.message=必须为指定的数据
+//com.common.valid.ListValue.message=必须为指定的数据
 //        ValidationMessages.properties
 /**
  * @Author: xhj

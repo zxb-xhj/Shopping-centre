@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.*;
 
 import com.xhj.product.entity.CategoryBrandRelationEntity;
 import com.xhj.product.service.CategoryBrandRelationService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 

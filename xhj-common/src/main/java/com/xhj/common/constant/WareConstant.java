@@ -1,4 +1,4 @@
-package com..common.constant;
+package com.common.constant;
 
 public class WareConstant {
 

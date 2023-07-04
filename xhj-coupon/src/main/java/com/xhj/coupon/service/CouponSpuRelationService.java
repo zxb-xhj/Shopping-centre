@@ -1,7 +1,7 @@
 package com.xhj.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.coupon.entity.CouponSpuRelationEntity;
 
 import java.util.Map;

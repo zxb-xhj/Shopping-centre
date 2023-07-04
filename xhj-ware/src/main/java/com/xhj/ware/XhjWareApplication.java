@@ -8,9 +8,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@MapperScan("com..xhj.ware.dao")
+@MapperScan("com.xhj.ware.dao")
 @EnableDiscoveryClient
-@EnableFeignClients("com..xhj.ware.feign")
+@EnableFeignClients("com.xhj.ware.feign")
 @EnableTransactionManagement
 public class XhjWareApplication {
 

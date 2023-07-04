@@ -1,6 +1,6 @@
 package com.xhj.order.listener;
 
-import com..common.to.mq.OrderTo;
+import com.common.to.mq.OrderTo;
 import com.xhj.order.entity.OrderEntity;
 import com.xhj.order.service.OrderService;
 import com.rabbitmq.client.Channel;

@@ -1,6 +1,6 @@
 package com.xhj.search.service;
 
-import com..common.to.es.SkuEsModel;
+import com.common.to.es.SkuEsModel;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;

@@ -1,14 +1,14 @@
-package com..xhj.auth.controller;
+package com.xhj.auth.controller;
 
 import com.alibaba.fastjson.TypeReference;
-import com..common.constant.AuthServerConstant;
-import com..common.exception.BizCodeEnum;
-import com..common.utils.R;
-import com..common.vo.MemberResponseVo;
-import com..xhj.auth.feign.MemberFeignService;
-import com..xhj.auth.feign.ThirdPartFeignService;
-import com..xhj.auth.vo.UserLoginVo;
-import com..xhj.auth.vo.UserRegisterVo;
+import com.common.constant.AuthServerConstant;
+import com.common.exception.BizCodeEnum;
+import com.common.utils.R;
+import com.common.vo.MemberResponseVo;
+import com.xhj.auth.feign.MemberFeignService;
+import com.xhj.auth.feign.ThirdPartFeignService;
+import com.xhj.auth.vo.UserLoginVo;
+import com.xhj.auth.vo.UserRegisterVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -30,7 +30,7 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import static com..common.constant.AuthServerConstant.LOGIN_USER;
+import static com.common.constant.AuthServerConstant.LOGIN_USER;
 
 /**
  * @Author: xhj

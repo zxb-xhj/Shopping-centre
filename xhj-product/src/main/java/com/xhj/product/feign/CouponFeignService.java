@@ -1,8 +1,8 @@
 package com.xhj.product.feign;
 
-import com..common.to.SkuReductionTo;
-import com..common.to.SpuBoundTo;
-import com..common.utils.R;
+import com.common.to.SkuReductionTo;
+import com.common.to.SpuBoundTo;
+import com.common.utils.R;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;

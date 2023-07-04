@@ -1,6 +1,6 @@
 package com.xhj.thirdparty.controller;
 
-import com..common.utils.R;
+import com.common.utils.R;
 import com.xhj.thirdparty.component.SmsComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

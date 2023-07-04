@@ -3,7 +3,7 @@ package com.xhj.ware.service;
 import com.xhj.ware.vo.MergeVo;
 import com.xhj.ware.vo.PurchaseDoneVo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.ware.entity.PurchaseEntity;
 
 import java.util.Map;

@@ -11,7 +11,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com..xhj</groupId>
+    <groupId>com.xhj</groupId>
     <artifactId>xhj-product</artifactId>
 
     <properties>
@@ -41,7 +41,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com..xhj</groupId>
+            <groupId>com.xhj</groupId>
             <artifactId>xhj-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

@@ -1,11 +1,11 @@
 package com.xhj.product.service.impl;
 
 import com.alibaba.fastjson.TypeReference;
-import com..common.utils.R;
+import com.common.utils.R;
 import com.xhj.product.entity.SkuImagesEntity;
 import com.xhj.product.entity.SpuInfoDescEntity;
 import com.xhj.product.feign.SeckillFeignService;
-import com..xhj.product.service.*;
+import com.xhj.product.service.*;
 import com.xhj.product.vo.SeckillSkuVo;
 import com.xhj.product.vo.SkuItemSaleAttrVo;
 import com.xhj.product.vo.SkuItemVo;
@@ -23,8 +23,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import com.xhj.product.dao.SkuInfoDao;
 import com.xhj.product.entity.SkuInfoEntity;

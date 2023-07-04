@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-//@MapperScan("com..xhj.coupon.dao")
+//@MapperScan("com.xhj.coupon.dao")
 public class XhjCouponApplication {
 
     public static void main(String[] args) {

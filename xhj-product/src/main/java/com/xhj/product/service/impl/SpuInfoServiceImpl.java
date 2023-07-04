@@ -1,18 +1,18 @@
 package com.xhj.product.service.impl;
 
 import com.alibaba.fastjson.TypeReference;
-import com..common.constant.ProductConstant;
-import com..common.to.SkuHasStockTo;
-import com..common.to.SkuReductionTo;
-import com..common.to.SpuBoundTo;
-import com..common.to.es.SkuEsModel;
-import com..common.utils.R;
-import com..xhj.product.entity.*;
+import com.common.constant.ProductConstant;
+import com.common.to.SkuHasStockTo;
+import com.common.to.SkuReductionTo;
+import com.common.to.SpuBoundTo;
+import com.common.to.es.SkuEsModel;
+import com.common.utils.R;
+import com.xhj.product.entity.*;
 import com.xhj.product.feign.CouponFeignService;
 import com.xhj.product.feign.SearchFeignService;
 import com.xhj.product.feign.WareFeignService;
-import com..xhj.product.service.*;
-import com..xhj.product.vo.*;
+import com.xhj.product.service.*;
+import com.xhj.product.vo.*;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,8 +28,8 @@ import java.util.stream.Collectors;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import com.xhj.product.dao.SpuInfoDao;
 import org.springframework.transaction.annotation.Transactional;

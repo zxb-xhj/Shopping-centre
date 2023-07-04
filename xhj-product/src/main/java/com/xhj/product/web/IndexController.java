@@ -173,7 +173,7 @@ public class IndexController {
         door.trySetCount(5);
         door.await();       //等待闭锁完成
 
-        return "放假了...";
+        return "放假了..";
     }
 
     @GetMapping(value = "/gogogo/{id}")
@@ -182,7 +182,7 @@ public class IndexController {
         RCountDownLatch door = redissonClient.getCountDownLatch("door");
         door.countDown();       //计数-1
 
-        return id + "班的人都走了...";
+        return id + "班的人都走了..";
     }
 
 

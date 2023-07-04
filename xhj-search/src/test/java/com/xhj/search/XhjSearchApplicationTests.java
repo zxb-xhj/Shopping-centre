@@ -27,7 +27,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.io.IOException;
 
 @SpringBootTest
-class xhjSearchApplicationTests {
+class XhjSearchApplicationTests {
 
     @Autowired
     private RestHighLevelClient restHighLevelClient;

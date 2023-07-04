@@ -1,11 +1,11 @@
 package com.xhj.order.service.impl;
 
 import com.alibaba.fastjson.TypeReference;
-import com..common.exception.NoStockException;
-import com..common.to.mq.OrderTo;
-import com..common.to.mq.SeckillOrderTo;
-import com..common.utils.R;
-import com..common.vo.MemberResponseVo;
+import com.common.exception.NoStockException;
+import com.common.to.mq.OrderTo;
+import com.common.to.mq.SeckillOrderTo;
+import com.common.utils.R;
+import com.common.vo.MemberResponseVo;
 import com.xhj.order.constant.OrderConstant;
 import com.xhj.order.entity.OrderItemEntity;
 import com.xhj.order.enume.OrderStatusEnum;
@@ -17,7 +17,7 @@ import com.xhj.order.interceptor.LoginUserIntercaptor;
 import com.xhj.order.service.OrderItemService;
 import com.xhj.order.to.OrderCreateTo;
 import com.xhj.order.to.SpuInfoVo;
-import com..xhj.order.vo.*;
+import com.xhj.order.vo.*;
 import com.baomidou.mybatisplus.core.toolkit.IdWorker;
 //import io.seata.spring.annotation.GlobalTransactional;
 import com.xhj.order.dao.OrderDao;
@@ -42,8 +42,8 @@ import java.util.stream.Collectors;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import com.xhj.order.entity.OrderEntity;
 import org.springframework.transaction.annotation.Propagation;

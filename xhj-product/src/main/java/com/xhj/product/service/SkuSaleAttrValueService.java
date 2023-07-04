@@ -1,9 +1,9 @@
 package com.xhj.product.service;
 
-import com..common.to.es.SkuEsModel;
+import com.common.to.es.SkuEsModel;
 import com.xhj.product.vo.SkuItemSaleAttrVo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.product.entity.SkuSaleAttrValueEntity;
 
 import java.util.List;

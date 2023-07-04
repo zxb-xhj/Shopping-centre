@@ -1,4 +1,4 @@
-package com..xhj.auth.vo;
+package com.xhj.auth.vo;
 
 import lombok.Data;
 

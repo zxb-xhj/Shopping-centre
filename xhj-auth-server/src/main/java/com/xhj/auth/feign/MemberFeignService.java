@@ -1,9 +1,9 @@
-package com..xhj.auth.feign;
+package com.xhj.auth.feign;
 
-import com..common.utils.R;
-import com..xhj.auth.vo.SocialUser;
-import com..xhj.auth.vo.UserLoginVo;
-import com..xhj.auth.vo.UserRegisterVo;
+import com.common.utils.R;
+import com.xhj.auth.vo.SocialUser;
+import com.xhj.auth.vo.UserLoginVo;
+import com.xhj.auth.vo.UserRegisterVo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

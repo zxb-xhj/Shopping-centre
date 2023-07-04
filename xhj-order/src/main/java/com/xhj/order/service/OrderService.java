@@ -1,11 +1,11 @@
 package com.xhj.order.service;
 
-import com..common.to.mq.SeckillOrderTo;
+import com.common.to.mq.SeckillOrderTo;
 import com.xhj.order.vo.OrderConfirmVo;
 import com.xhj.order.vo.OrderSubmitVo;
 import com.xhj.order.vo.SubmitOrderResponseVo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.order.entity.OrderEntity;
 
 import java.util.Map;

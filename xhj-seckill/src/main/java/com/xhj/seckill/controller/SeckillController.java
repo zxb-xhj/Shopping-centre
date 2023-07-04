@@ -1,6 +1,6 @@
 package com.xhj.seckill.controller;
 
-import com..common.utils.R;
+import com.common.utils.R;
 import com.xhj.seckill.service.SeckillService;
 import com.xhj.seckill.to.SeckillSkuRedisTo;
 import org.springframework.beans.factory.annotation.Autowired;

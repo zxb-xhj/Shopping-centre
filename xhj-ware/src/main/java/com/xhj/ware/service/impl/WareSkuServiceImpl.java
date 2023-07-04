@@ -1,12 +1,12 @@
 package com.xhj.ware.service.impl;
 
 import com.alibaba.fastjson.TypeReference;
-import com..common.exception.NoStockException;
-import com..common.to.SkuHasStockTo;
-import com..common.to.mq.OrderTo;
-import com..common.to.mq.StockDetailTo;
-import com..common.to.mq.StockLockedTo;
-import com..common.utils.R;
+import com.common.exception.NoStockException;
+import com.common.to.SkuHasStockTo;
+import com.common.to.mq.OrderTo;
+import com.common.to.mq.StockDetailTo;
+import com.common.to.mq.StockLockedTo;
+import com.common.utils.R;
 import com.xhj.ware.entity.WareOrderTaskDetailEntity;
 import com.xhj.ware.entity.WareOrderTaskEntity;
 import com.xhj.ware.feign.OrderFeignService;
@@ -30,8 +30,8 @@ import java.util.stream.Collectors;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com..common.utils.PageUtils;
-import com..common.utils.Query;
+import com.common.utils.PageUtils;
+import com.common.utils.Query;
 
 import com.xhj.ware.dao.WareSkuDao;
 import com.xhj.ware.entity.WareSkuEntity;

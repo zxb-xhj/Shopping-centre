@@ -2,7 +2,7 @@ package com.xhj.product.service;
 
 import com.xhj.product.vo.SkuItemVo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com..common.utils.PageUtils;
+import com.common.utils.PageUtils;
 import com.xhj.product.entity.SkuInfoEntity;
 
 import java.util.List;

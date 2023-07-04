@@ -1,6 +1,6 @@
 package com.xhj.order.feign;
 
-import com..common.utils.R;
+import com.common.utils.R;
 import com.xhj.order.vo.WareSkuLockVo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

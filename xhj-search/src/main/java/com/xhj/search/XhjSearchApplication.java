@@ -10,7 +10,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @EnableDiscoveryClient
 @EnableRedisHttpSession
-@EnableFeignClients(value = "com..xhj.search.feign")
+@EnableFeignClients(value = "com.xhj.search.feign")
 public class XhjSearchApplication {
 
     public static void main(String[] args) {

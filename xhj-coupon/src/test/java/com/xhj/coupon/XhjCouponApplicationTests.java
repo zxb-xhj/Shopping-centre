@@ -12,7 +12,7 @@ import java.util.List;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-class xhjCouponApplicationTests {
+class XhjCouponApplicationTests {
 
     @Autowired
     CouponHistoryService couponHistoryService;

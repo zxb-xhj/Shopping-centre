@@ -2,8 +2,8 @@ package com.xhj.cart.cart.service.ipml;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
-import com..common.constant.CartConstant;
-import com..common.utils.R;
+import com.common.constant.CartConstant;
+import com.common.utils.R;
 import com.xhj.cart.cart.feign.ProductFeignService;
 import com.xhj.cart.cart.interceptor.CartInterceptor;
 import com.xhj.cart.cart.service.CartService;

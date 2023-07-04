@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.xhj.ware.entity.PurchaseEntity;
 import com.xhj.ware.service.PurchaseService;
-import com..common.utils.PageUtils;
-import com..common.utils.R;
+import com.common.utils.PageUtils;
+import com.common.utils.R;
 
 
 
