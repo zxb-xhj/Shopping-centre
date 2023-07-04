@@ -1,0 +1,97 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: test_gateway
+          uri: https://www.qq.com
+          predicates:
+          - Query=url,qq
+
+        - id: test2_gateway
+          uri: http://www.baidu.com
+          predicates:
+          - Query=url,baidu
+
+        - id: product_gateway
+          uri: lb://xhj-product
+          predicates:
+          - Path=/api/product/**
+          filters:
+          - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: member_gateway
+          uri: lb://xhj-member
+          predicates:
+          - Path=/api/member/**
+          filters:
+          - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: coupon_gateway
+          uri: lb://xhj-coupon
+          predicates:
+          - Path=/api/coupon/**
+          filters:
+          - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: order_gateway
+          uri: lb://xhj-order
+          predicates:
+          - Path=/api/order/**
+          filters:
+          - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: ware_gateway
+          uri: lb://xhj-ware
+          predicates:
+          - Path=/api/ware/**
+          filters:
+          - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: third-party
+          uri: lb://xhj-third-party
+          predicates:
+          - Path=/api/thirdparty/**
+          filters:
+          - RewritePath=/api/thirdparty/(?<segment>.*),/$\{segment}
+
+        - id: renren_gateway
+          uri: lb://renren-fast
+          predicates:
+          - Path=/api/**
+          filters:
+          - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}
+
+        - id: xhj_host
+          uri: lb://xhj-product
+          predicates:
+          - Host=xhj.com
+
+        - id: xhj_search_host
+          uri: lb://xhj-search
+          predicates:
+          - Host=search.xhj.com
+
+        - id: xhj_product_host
+          uri: lb://xhj-product
+          predicates:
+          - Host=item.xhj.com
+
+        - id: xhj_auth_host
+          uri: lb://xhj-auth-server
+          predicates:
+          - Host=auth.xhj.com
+
+        - id: xhj_cart_host
+          uri: lb://xhj-cart
+          predicates:
+          - Host=cart.xhj.com
+
+        - id: xhj_order_host
+          uri: lb://xhj-order
+          predicates:
+          - Host=order.xhj.com
+
+        - id: xhj_seckill_host
+          uri: lb://xhj-seckill
+          predicates:
+          - Host=seckill.xhj.com

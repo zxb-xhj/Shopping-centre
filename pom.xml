@@ -3,25 +3,31 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.xhj.gulimall</groupId>
-    <artifactId>gulimall</artifactId>
+    <groupId>com.xhj.xhj</groupId>
+    <artifactId>xhj</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gulimall</name>
+    <name>xhj</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
 
     <modules>
-        <module>gulimall-common</module>
-        <module>gulimall-coupon</module>
-        <module>gulimall-member</module>
-        <module>gulimall-order</module>
-        <module>gulimall-product</module>
-        <module>gulimall-ware</module>
+        <module>xhj-common</module>
+        <module>xhj-coupon</module>
+        <module>xhj-member</module>
+        <module>xhj-order</module>
+        <module>xhj-product</module>
+        <module>xhj-ware</module>
         <module>renren-generator</module>
-        <module>gulimall-gateway</module>
-        <module>gulimall-third-party</module>
-        <module>gulimall-search</module>
+        <module>xhj-gateway</module>
+        <module>xhj-third-party</module>
+        <module>xhj-search</module>
         <module>renren-fast</module>
+        <module>xhj-auth-server</module>
+        <module>xhj-test-sso-client</module>
+        <module>xhj-test-sso-client2</module>
+        <module>xhj-test-sso-server</module>
+        <module>xhj-cart</module>
+        <module>xhj-seckill</module>
     </modules>
 
 

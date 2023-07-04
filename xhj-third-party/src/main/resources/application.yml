@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    alicloud:
+      oss:
+        endpoint: oss-cn-guangzhou.aliyuncs.com
+      access-key: *
+      secret-key: *
+      bucket: *
+      mysms:
+        host: *
+        path: /data/send_sms
+        appcode: *
+        method: post
+        templateId: *
+
+
+##   private String host;
+#    private String path;
+#    private String appcode;
+#    private String method;
+#    private String templateId;

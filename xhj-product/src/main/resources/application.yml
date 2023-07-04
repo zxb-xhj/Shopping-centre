@@ -1,0 +1,43 @@
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      logic-not-delete-value: 1
+      logic-delete-value: 0
+  mapper-locations: classpath*:/mapper/product/*.xml
+spring:
+  datasource:
+    username: xhj
+    password: xhj123@.
+    url: jdbc:mysql://127.0.0.1:3306/xhj_pms?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: xhj-product
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  thymeleaf:
+    cache: false
+  redis:
+    host: 127.0.0.1
+    port: 6379
+server:
+  port: 10011
+logging:
+  level:
+    com..xhj: info
+
+feign:
+  httpclient:
+    connection-timeout: 20000
+  client:
+    config:
+      default:
+        connectTimeout: 10000 #单位毫秒
+        readTimeout: 10000 #单位毫秒
+

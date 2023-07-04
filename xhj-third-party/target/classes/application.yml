@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    alicloud:
+      oss:
+        endpoint: oss-cn-guangzhou.aliyuncs.com
+      access-key: LTAI5tJJDu3Y2T5tBY916yBu
+      secret-key: kBQi2R0XLRN9ogANZTN2nt6vwDkYoO
+      bucket: xhj-xhj
+      mysms:
+        host: http://dfsns.market.alicloudapi.com
+        path: /data/send_sms
+        appcode: 023649d5b0094ac3806805205ac19d50
+        method: post
+        templateId: CST_ptdie100
+
+
+##   private String host;
+#    private String path;
+#    private String appcode;
+#    private String method;
+#    private String templateId;

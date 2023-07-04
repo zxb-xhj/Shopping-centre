@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "spring.cloud.alicloud.mysms",
+      "type": "com.atguigu.xhj.thirdparty.component.SmsComponent",
+      "sourceType": "com.atguigu.xhj.thirdparty.component.SmsComponent"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.cloud.alicloud.mysms.appcode",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.xhj.thirdparty.component.SmsComponent"
+    },
+    {
+      "name": "spring.cloud.alicloud.mysms.host",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.xhj.thirdparty.component.SmsComponent"
+    },
+    {
+      "name": "spring.cloud.alicloud.mysms.method",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.xhj.thirdparty.component.SmsComponent"
+    },
+    {
+      "name": "spring.cloud.alicloud.mysms.path",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.xhj.thirdparty.component.SmsComponent"
+    },
+    {
+      "name": "spring.cloud.alicloud.mysms.template-id",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.xhj.thirdparty.component.SmsComponent"
+    }
+  ],
+  "hints": []
+}
