@@ -90,23 +90,7 @@ class xhjProductApplicationTests {
 
     @Test
     public void testUpload() throws FileNotFoundException {
-        /*// Endpoint以华东1（杭州）为例，其它Region请按实际情况填写。
-        String endpoint = "oss-cn-guangzhou.aliyuncs.com";
-        // 阿里云账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM用户进行API访问或日常运维，请登录RAM控制台创建RAM用户。
-        String accessKeyId = "LTAI5tJJDu3Y2T5tBY916yBu";
-        String accessKeySecret = "kBQi2R0XLRN9ogANZTN2nt6vwDkYoO";
 
-        // 创建OSSClient实例。
-        OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);*/
-
-        /*// 填写Bucket名称，例如examplebucket。
-        String bucketName = "xhj-xhj";
-        // 上传文件流
-        InputStream inputStream = new FileInputStream("C:\\Users\\DELL\\Desktop\\资料\\caipi\\海参拼盘.jpeg");
-        ossClient.putObject(bucketName,"海参拼盘.jpeg",inputStream);
-        // 关闭ossClient
-        ossClient.shutdown();
-        System.out.println("上传成功....");*/
     }
 
     @Test

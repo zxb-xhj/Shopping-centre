@@ -13,6 +13,17 @@
     <file url="file://$PROJECT_DIR$/gulimall-ware/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/renren-fast/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/renren-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-coupon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-member/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-seckill/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-third-party/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xhj-ware/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
